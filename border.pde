@@ -1,6 +1,6 @@
 public class Border {
-  
-  void display(int borderwidth) {
+  public int borderwidth = 60;
+  public void display() {
     fill(0);
     noStroke();
     rect(0, 0, borderwidth, height);
